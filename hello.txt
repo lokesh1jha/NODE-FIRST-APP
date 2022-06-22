@@ -1,0 +1,27 @@
+Hello from node.js
+
+Explain how does the internet work in your own words.
+    Internet have a front end that is user interface and that will be visible to user/client.
+    the user puts the url and hits enter
+    that url triggers their respective IP address and ask server to load the service 
+    then the service is loaded and reverted back to frontend as response
+What are the core modules of node js?
+    Core modules are simple or complex functionality organized in Node.js to be used when needed. Like a library function.
+Explain the use of each one of them in detail.
+    http --> creates an HTTP server in Node.js.
+    assert --> set of assertion functions useful for testing    
+    fs --> used to handle file system.  
+    path --> includes methods to deal with file paths.
+    process --> provides information and control about the current Node.js process.
+    os --> provides information about the operating system.
+    querystring --> utility used for parsing and formatting URL query strings.
+    url --> module provides utilities for URL resolution and parsing.
+What are relative path and absolute path? How to define them?
+    Relative Path provides address to the file with reference to the current directory. Starts with "/"
+    Absolute Path provides address to the file with complete address.
+What does createServer do?
+    createServer creates a server which calls requestListner.
+What are anonymous functions?
+    Function with no name is called anonymous function.
+What do you think server.listens exactly do?Why do we need it?
+    Server.listens provides a port no. where the webpage can be hosted and could be reached from browser.
